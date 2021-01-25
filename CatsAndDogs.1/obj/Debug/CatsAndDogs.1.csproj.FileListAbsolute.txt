@@ -1,0 +1,13 @@
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\bin\Debug\CatsAndDogs.1.exe.config
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\bin\Debug\CatsAndDogs.1.exe
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\bin\Debug\CatsAndDogs.1.pdb
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.csprojAssemblyReference.cache
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs._1.Form1.resources
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs._1.Properties.Resources.resources
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.csproj.GenerateResource.cache
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.csproj.CoreCompileInputs.cache
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.csproj.CopyComplete
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.exe
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.pdb
