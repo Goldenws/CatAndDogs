@@ -1,4 +1,5 @@
 ﻿using System;
+using Nancy;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using Nancy.Json;
 
 namespace CatsAndDogs._1
 {
@@ -47,6 +49,37 @@ namespace CatsAndDogs._1
             }
 
             return imageurl;
+        }
+
+        private void getACat_Click(object sender, EventArgs e)
+        {
+            string catImage = GetCatImageUrl();
+
+
+            catPicture.ImageLocation = catImage;
+            catPicture.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+
+        public static string GetCatImageUrl()
+        {
+            string url = "https://api.thecatapi.com/v1/images/search";
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.Method = "GET";
+            string catImage;
+
+            var webResponse = request.GetResponse();
+            var webStream = webResponse.GetResponseStream();
+            
+            using(var responseReader = new StreamReader(webStream))
+            {
+                var response = responseReader.ReadToEnd();
+                JavaScriptSerializer ser = new JavaScriptSerializer();
+
+                List<Cat> catList = ser.Deserialize<List<Cat>>(response);
+                catImage = catList[0].url;
+            }
+
+            return catImage;
         }
     }
 }

@@ -11,3 +11,5 @@ C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAnd
 C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.csproj.CopyComplete
 C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.exe
 C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\obj\Debug\CatsAndDogs.1.pdb
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\bin\Debug\Nancy.dll
+C:\Users\Roland Strod\source\repos\CatsAndDogs.1\CatsAndDogs.1\bin\Debug\Nancy.xml

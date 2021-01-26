@@ -29,28 +29,29 @@ namespace CatsAndDogs._1
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dogPicture = new System.Windows.Forms.PictureBox();
+            this.catPicture = new System.Windows.Forms.PictureBox();
             this.getTheDog = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.getACat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dogPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.catPicture)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // dogPicture
             // 
             this.dogPicture.Location = new System.Drawing.Point(878, 82);
             this.dogPicture.Name = "dogPicture";
             this.dogPicture.Size = new System.Drawing.Size(293, 287);
-            this.dogPicture.TabIndex = 1;
+            this.dogPicture.TabIndex = 0;
             this.dogPicture.TabStop = false;
+            // 
+            // catPicture
+            // 
+            this.catPicture.Location = new System.Drawing.Point(72, 82);
+            this.catPicture.Name = "catPicture";
+            this.catPicture.Size = new System.Drawing.Size(293, 287);
+            this.catPicture.TabIndex = 1;
+            this.catPicture.TabStop = false;
             // 
             // getTheDog
             // 
@@ -62,27 +63,39 @@ namespace CatsAndDogs._1
             this.getTheDog.UseVisualStyleBackColor = true;
             this.getTheDog.Click += new System.EventHandler(this.getTheDog_Click);
             // 
+            // getACat
+            // 
+            this.getACat.Location = new System.Drawing.Point(100, 404);
+            this.getACat.Name = "getACat";
+            this.getACat.Size = new System.Drawing.Size(229, 33);
+            this.getACat.TabIndex = 3;
+            this.getACat.Text = "Get the cat image";
+            this.getACat.UseVisualStyleBackColor = true;
+            this.getACat.Click += new System.EventHandler(this.getACat_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 573);
+            this.Controls.Add(this.getACat);
             this.Controls.Add(this.getTheDog);
+            this.Controls.Add(this.catPicture);
             this.Controls.Add(this.dogPicture);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dogPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.catPicture)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox dogPicture;
+        private System.Windows.Forms.PictureBox catPicture;
         private System.Windows.Forms.Button getTheDog;
+        private System.Windows.Forms.Button getACat;
     }
 }
 
